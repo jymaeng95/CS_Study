@@ -16,7 +16,7 @@ FROM 테이블의 목록  # Product
 WHERE 검색 조건    # Restrict
 ```
 
-- SELECT는 Projection, Product, Restrict의 연산이 한번에 이루어짐
+- SELECT는 Projection, Product, Restrict의 연산이 한번에 이루어진다.
   - Projection : 속성을 선택하는 연산
   - Product : 해당하는 릴레이션의 곱집합
   - Restrict : 특정 조건에 맞는 튜플을 포함한 릴레이션 반환 연산
